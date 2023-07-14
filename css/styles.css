@@ -100,7 +100,7 @@ nav {
 /* main */
 
 main {
-	padding: 2em;
+	padding: 5em;
 }
 
 main h2 {
@@ -111,9 +111,27 @@ main h2 {
 	margin-top: 0;
 }
 
-.h3-styler {
+h3,
+h4 {
 	font-family: Garamond, serif;
 	color: black;
 	font-size: calc(0.7em + 1vw);
 	font-weight: bold;
+}
+
+.h3-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	gap: 1em;
+}
+
+.h3-wrapper p {
+	font-style: oblique;
+}
+
+.default-font {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: calc(0.5em + 0.5vw);
 }
