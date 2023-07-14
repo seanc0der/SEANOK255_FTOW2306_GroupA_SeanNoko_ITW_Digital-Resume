@@ -549,5 +549,30 @@
 				</section>
 			</aside>
 		</main>
+
+		<footer id="contacts">
+			<div>
+				<form action="https://formsubmit.co/sean.noko@gmail.com" method="POST">
+					<label for="name-field">Name:</label>
+					<input id="name-field" name="name" type="text" required />
+
+					<label for="email">Email:</label>
+					<input id="email-field" name="email" type="email" required />
+
+					<label for="contact-reason">Choose reason for contact:</label>
+					<select id="contact-reason" name="contact-reason" required>
+						<option value="">(Select an option)</option>
+						<option value="1">Job Opportunity</option>
+						<option value="2">Tech Start-Up Venture</option>
+						<option value="3">Additional Info Request</option>
+						<option value="4">Other</option>
+					</select>
+
+					<label for="extra-info">Provide additional info:</label>
+					<textarea id="extra-info" row="5" cols="30"></textarea>
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+		</footer>
 	</body>
 </html>
