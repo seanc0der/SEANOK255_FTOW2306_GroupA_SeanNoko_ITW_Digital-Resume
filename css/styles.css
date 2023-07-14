@@ -96,3 +96,24 @@ nav {
 	font-weight: bold;
 	margin: 0;
 }
+
+/* main */
+
+main {
+	padding: 2em;
+}
+
+main h2 {
+	border-bottom: 0.1em solid #d36500;
+	font-family: Garamond, serif;
+	font-size: calc(1em + 1.5vw);
+	color: #d36500;
+	margin-top: 0;
+}
+
+.h3-styler {
+	font-family: Garamond, serif;
+	color: black;
+	font-size: calc(0.7em + 1vw);
+	font-weight: bold;
+}
