@@ -501,15 +501,21 @@
 		</main>
 
 		<footer id="contacts">
-			<div>
-				<form action="b5573ea4b648b4a23023c07fb31ced50" method="post">
-					<label for="name-field">Name:</label>
+			<div id="contacts-wrapper">
+				<form
+					id="form-wrapper"
+					action="b5573ea4b648b4a23023c07fb31ced50"
+					method="post"
+				>
+					<label id="name" for="name-field">Name:</label>
 					<input id="name-field" name="name" type="text" required />
 
-					<label for="email">Email:</label>
+					<label id="email" for="email">Email:</label>
 					<input id="email-field" name="email" type="email" required />
 
-					<label for="contact-reason">Choose reason for contact:</label>
+					<label id="contact-opts" for="contact-reason">
+						Choose reason for contact:
+					</label>
 					<select id="contact-reason" name="contact-reason" required>
 						<option value="">(Select an option)</option>
 						<option value="1">Job Opportunity</option>
@@ -518,13 +524,15 @@
 						<option value="4">Other</option>
 					</select>
 
-					<label for="extra-info">Provide additional info:</label>
+					<label id="more-info" for="extra-info">
+						Provide additional info:
+					</label>
 					<textarea id="extra-info" row="5" cols="30"></textarea>
 
-					<input type="submit" value="Submit" />
+					<input id="submit" type="submit" value="Submit" />
 				</form>
 
-				<div>
+				<div id="linkedin-wrapper">
 					<a href="https://www.linkedin.com/in/seannoko/" target="_blank">
 						<img
 							id="linkedin-logo"
@@ -534,7 +542,7 @@
 					</a>
 				</div>
 
-				<div>
+				<div id="github-wrapper">
 					<a href="https://github.com/seanc0der" target="_blank">
 						<img
 							id="github-logo"
@@ -544,7 +552,7 @@
 					</a>
 				</div>
 
-				<div>
+				<div id="email-wrapper">
 					<a href="mailto:sean.noko@gmail.com" target="_blank">
 						<img
 							id="github-logo"
