@@ -176,3 +176,25 @@ h4 {
 .cert-wrapper p {
 	margin: 0;
 }
+
+/* Awards & Achievements section */
+
+#accolades-wrapper {
+	display: grid;
+	grid-template: 1fr 1fr 1fr / 1fr;
+	row-gap: 3em;
+}
+
+.accolade-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.accolade-wrapper h3 {
+	margin: 0;
+}
+
+.accolade-wrapper p {
+	margin: 0;
+}
