@@ -100,9 +100,7 @@ nav {
 /* main */
 
 main {
-	width: 95% calc(95% - 15vw);
-	min-width: 75%;
-
+	width: calc(95% - 15vw);
 	margin-left: auto;
 	margin-right: auto;
 }
