@@ -136,11 +136,14 @@ h4 {
 	font-size: calc(0.5em + 0.5vw);
 }
 
+/* Skills-section */
+
 #skills-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
 	gap: 1em;
+	padding: 0;
 }
 
 #skills-wrapper li {
@@ -151,4 +154,25 @@ h4 {
 	background-color: #ffbd20;
 	font-weight: bold;
 	text-align: center;
+}
+
+/* Certificates section */
+
+#certs-wrapper {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	row-gap: 3em;
+}
+
+.cert-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.cert-wrapper h3 {
+	margin: 0;
+}
+
+.cert-wrapper p {
+	margin: 0;
 }
