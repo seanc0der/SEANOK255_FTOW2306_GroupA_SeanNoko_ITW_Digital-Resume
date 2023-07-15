@@ -506,32 +506,38 @@
 				action="b5573ea4b648b4a23023c07fb31ced50"
 				method="post"
 			>
-				<label id="name" for="name-field">Name:</label>
-				<input id="name-field" name="name" type="text" required />
+				<label for="name-field"
+					>Name:
+					<input id="name-field" name="name" type="text" required />
+				</label>
 
-				<label id="email" for="email">Email:</label>
-				<input id="email-field" name="email" type="email" required />
+				<label for="email"
+					>Email:
+					<input id="email-field" name="email" type="email" required />
+				</label>
 
-				<label id="contact-opts" for="contact-reason">
+				<label for="contact-reason">
 					Choose reason for contact:
+					<br />
+					<select id="contact-reason" name="contact-reason" required>
+						<option value="">(Select an option)</option>
+						<option value="1">Job Opportunity</option>
+						<option value="2">Tech Start-Up Venture</option>
+						<option value="3">Additional Info Request</option>
+						<option value="4">Other</option>
+					</select>
 				</label>
-				<select id="contact-reason" name="contact-reason" required>
-					<option value="">(Select an option)</option>
-					<option value="1">Job Opportunity</option>
-					<option value="2">Tech Start-Up Venture</option>
-					<option value="3">Additional Info Request</option>
-					<option value="4">Other</option>
-				</select>
 
-				<label id="more-info" for="extra-info">
+				<label for="extra-info">
 					Provide additional info:
+					<br />
+					<textarea id="extra-info" row="5" cols="30"></textarea>
 				</label>
-				<textarea id="extra-info" row="5" cols="30"></textarea>
-
-				<input id="submit" type="submit" value="Submit" />
+				<br />
+				<button type="submit" value="Submit">Submit</button>
 			</form>
 
-			<div logos-wrapper>
+			<div id="logos-wrapper">
 				<div id="linkedin-wrapper">
 					<a href="https://www.linkedin.com/in/seannoko/" target="_blank">
 						<img
