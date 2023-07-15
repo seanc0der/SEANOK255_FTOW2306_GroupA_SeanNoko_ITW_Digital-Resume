@@ -198,3 +198,65 @@ h4 {
 .accolade-wrapper p {
 	margin: 0;
 }
+
+/* footer */
+
+footer {
+	background-color: #121212;
+}
+
+/* logos */
+
+#github-logo,
+#linkedin-logo,
+#email-logo {
+	width: calc(1.5em + 1vw);
+	height: auto;
+}
+
+/* Linkedin logo animation */
+
+@keyframes linkedin-animation {
+	0% {
+		transform: rotateY(360deg);
+		filter: invert(100%);
+	}
+	50% {
+		filter: invert(100%);
+	}
+	75% {
+		filter: invert(100%);
+	}
+	100% {
+		filter: opacity(100%);
+	}
+}
+
+#linkedin-logo:hover {
+	animation-name: linkedin-animation;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+/* Github and Email logo animations */
+
+@keyframes default-animation {
+	0% {
+		transform: rotateY(360deg);
+	}
+}
+
+#github-logo:hover {
+	animation-name: default-animation;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+#email-logo:hover {
+	animation-name: default-animation;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
