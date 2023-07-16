@@ -409,6 +409,18 @@ Code for small to large mobile screen devices (max-width: 767px)
 		gap: 1em;
 	}
 
+	.header-wrapper h1 {
+		flex: auto;
+	}
+
+	.header-wrapper h2 {
+		flex: auto;
+	}
+
+	.header-wrapper p {
+		flex: auto;
+	}
+
 	main {
 		width: 90%;
 	}
